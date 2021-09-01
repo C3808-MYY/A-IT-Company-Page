@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    border: 1px solid black;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    padding: 30px 10%;
+    width: 100%;
+    background-color: #35424A;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    overflow: auto;
+    border-bottom: 3px solid #A9508B;
+}
+header h1{
+    float: left;
+    overflow: auto;
+    color: white;
+}
+
+header ul{
+    list-style-type: none;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* border: 1px solid blue; */
+    flex-wrap: nowrap;
+    align-items: center;
+    float: right;
+    display: flex;
+    margin-top: 10px;
+
+}
+header ul li{
+margin: 0px 15px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    }
+/* header ul li a::hover{
+cursor: pointer;
+
+    } */
+header span{
+    color: #A9508B;
+}
+#home{
+    color:#A9508B ;
+}
+#home:hover{
+    color: white;
+}
+.pages:hover{
+    font-weight: bold;
+}
+.top{
+    background-image: url("./img/showcase.jpg");
+    /* height: 44vh; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding: 100px 10%;
+    
+    
+}
+.top h1{
+
+    font-size: 55px;
+
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+.top p{
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.middle{
+    background-color: #35424A ;
+    display: flex;
+    justify-content: space-between;
+    padding: px 10%;
+    color: white;
+    flex-wrap: wrap;
+    padding: 30px;
+    /* width: 100%; */
+    /* height: 11vh; */
+}
+.middle div input{
+width: 250px;
+height: 35px;
+margin: 0px;
+padding: 15px;
+
+}
+.middle div button{
+height: 35px;
+border-radius: 0px;
+margin: 0px;
+background-color: #A9508B;
+color: white;
+border: 0px;
+}
+
+
+.down{
+    display: flex;
+    align-items: center;
+    padding: 30px 10% ;
+    background-color: #F4F4F4;
+    border-bottom: 3px solid #A9508B;
+}
+
+#html, #css, #grap{
+    text-align: center;
+    padding: 0px 15px;
+}
+.down img{
+    width: 20%;
+}
+
+#html h3, #css h3 , #grap h3{
+padding: 30px 0px;
+}
+#html, #css, #grap ,p{
+}
+
+footer{
+    background-color: #FFFAF0;
+    text-align: center;
+    padding: 30px 0px;
+}
+footer img{
+    width: 200px;
+}
